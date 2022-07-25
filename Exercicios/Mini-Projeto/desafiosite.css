@@ -67,12 +67,13 @@ nav {
 
 
     main {
-        min-width: 300px;
-      max-width: 1000px;
-     
+        min-width: 400px;
+        max-width: 1000px;
         margin:auto ;
-        
-     border-radius: 2px 2px 2px 2px;
+        padding: 20px;
+        margin-top: 1px;
+        margin-bottom: 40px;
+        border-radius: 2px 2px 2px 2px;
         background-color: white;
        
     }
