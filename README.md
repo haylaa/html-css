@@ -1,2 +1,2 @@
 # html-css
- Exercíciosdo curso de HTML e CSS.
+ Exercícios do curso de HTML e CSS.
