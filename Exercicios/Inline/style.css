@@ -1,0 +1,14 @@
+body { background-color: rgba(0, 102, 255, 0.089) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px  ;
+}
+    h1 {
+        color: rgb(185, 255, 127);
+    }
+    h2 {
+        color:  rgb(185, 255, 127) ;
+        background-color: rgba(39, 177, 143, 0.596);
+    }
+    p {
+        text-align: justify;
+    }

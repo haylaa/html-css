@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen Dinâmicas</title>
+</head>
+<body>
+    <picture>
+        <!--Usar o source:media:type, até  agora sabemos como usar imagens de uma pasta diferente na tag.
+        
+        Coloque a imagem e a resolução  minima necessaria pata ela  ser  substituida por umaa maior.-->
+        <source media="(min-width: 1050px )" srcset="foto-g.png" type="image/png">
+        <source media="(min-width: 700px )" srcset="foto-m.png" type="image/png">
+        <img src="foto-p.png" alt="img grande">
+    </picture>
+
+
+    <!--<audio src="/Imagens Para  Site/ROSALÍA - MOTOMAMI (Official Audio).mp3" controls autoplay ></audio>-->
+
+    <audio controls autoplay>
+        <source src="/Imagens Para  Site/ROSALÍA - MOTOMAMI (Official Audio).mp3" type="audio/mpeg">
+    </audio>
+
+
+   
+</body>
+</html>
