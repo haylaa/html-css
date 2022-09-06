@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .cnome, .cocup  {
+            background-color: gray;
+        }
+
+        .cgrupo{
+            background-color: ghostwhite;
+        }
+
+    </style>
+    <title>Tabelas</title>
+</head>
+<body>
+    <table>
+
+        <colgroup>
+        <col class="cnome" >
+        <col class="cgrupo" span="2">
+        <col class="cocup">
+        
+    </colgroup>
+        <thead>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Ocupação</th>
+        </thead>
+
+        <tr>
+        <td>Sara</td>
+        <td>F </td>
+        <td>23</td>
+        <td>Professora</td>
+        </tr>
+        
+        <tr>
+        <td>João</td>
+        <td>M</td>
+        <td>12</td>
+        <td>Estudante</td>
+        </tr>
+        
+        <tr>
+        <td>Jacinto </td>
+        <td>M </td>
+        <td>34</td>
+        <td>Padeiro</td>
+        </tr>
+
+        <tr>
+        <td>Lohanne </td>
+        <td>M </td>
+        <td>27</td>
+        <td>Atriz</td>
+        </tr>
+
+        <tr>
+        <td>Clara</td>
+        <td>F </td>
+        <td>78</td>
+        <td>Aposentada</td>
+        </tr>
+
+        <tr>
+        <td>Julia </td>
+        <td>F </td>
+        <td>19</td>
+        <td>Programadora</td>
+        </tr>  
+
+    </table>
+</body>
+</html>
